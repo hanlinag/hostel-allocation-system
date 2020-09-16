@@ -1,0 +1,88 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.row{
+	margin: 0 auto;
+	
+}
+
+body{
+	font-family: tarhoma;
+	background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.85)), url(../images/schoolbg.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+h1{
+	
+	color: #FFFFFF;
+}
+
+.text-center{
+	margin-top: 50px;
+	color: #FFFFFF;
+}
+
+
+h1:after{
+	width: 100px;
+	height: 2px;
+	background-color: #e67e22;
+	display: block;
+	content: " ";
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 40px;
+
+}
+
+.table{
+	color: #FFFFFF;
+}
+
+.table:hover{
+	color: #BDBDBD;
+}
+
+
+.tf{
+	width: 22px;
+}
+
+ul{
+	overflow: hidden;
+	justify-content: right;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	margin-left: 10px;
+}
+li{
+	display: inline-block;
+	margin-left: 10px;
+}
+
+#submitbt{
+
+	color: #FFFFFF;
+	text-decoration: none;
+	padding: 4px 12px;
+	border-radius: 10px;
+	border:1px solid #e67e22;
+	background-color: #e67e22;
+	margin-top: 5px;
+	margin-bottom: 10px;
+
+
+}
+
+.container{
+	margin-bottom: 20px;
+}
+
+.tablerow:hover{
+	color:#000;
+}

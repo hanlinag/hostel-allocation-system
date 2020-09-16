@@ -1,0 +1,53 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.row{
+	margin: 0 auto;
+	max-width: 1180px;
+}
+
+body{
+	font-family: tarhoma;
+	background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.85)), url(../images/schoolbg.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+h1{
+	
+	color: #FFFFFF;
+}
+
+.text-center{
+	margin-top: 50px;
+	color: #FFFFFF;
+}
+
+
+h1:after{
+	width: 100px;
+	height: 2px;
+	background-color: #e67e22;
+	display: block;
+	content: " ";
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 40px;
+
+}
+
+.table{
+	color: #FFFFFF;
+}
+
+.table:hover{
+	color: #BDBDBD;
+}
+
+.tablerow:hover{
+	color:#000;
+}

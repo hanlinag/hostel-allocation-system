@@ -1,0 +1,129 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.row{
+	margin: 0 auto;
+	max-width: 1180px;
+}
+
+body{
+	font-family: tarhoma;
+	background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(../images/schoolbg.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+h1{
+	color: #FFFFFF;
+}
+
+
+h1:after{
+	width: 100px;
+	height: 2px;
+	background-color: #e67e22;
+	display: block;
+	content: " ";
+	margin: 0 auto;
+	margin-top: 30px;
+	margin-bottom: 20px;
+
+}
+
+.Stunavigation ul li h5{
+	color: #FFFFFF;
+	font-size: 1.5em;
+	margin-right: 20px;
+}
+
+
+.Stunavigation ul{
+	list-style: none;
+	float: right;
+}
+
+.Stunavigation li{
+	display: inline-block;
+
+}
+
+.Stunavigation cite img{
+	margin-left: 10px;
+}
+
+.Stunavigation img{
+	width: 43px;
+	height: 43px;
+	margin-top: 4px;
+	margin-left: 10px;
+	border-radius: 50%;
+	border:2px solid #e67e22;
+
+}
+
+.Stunavigation   a{
+	text-decoration: none;
+	border: 1px solid #e67e22;
+	border-radius: 8px;
+	padding: 8px 25px;
+	background-color: transparent;
+	color: #e67e22;
+	margin-right: 15px;
+
+}
+
+.Stunavigation ul li a:hover{
+	background-color: #e67e22;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+#btIcons{
+	color: #e67e22;
+	font-size: 1200%;
+}
+
+#parentlayout{
+	margin-top: 200px;
+	margin-left: 12%;
+}
+
+.labelText{
+	color: #FFFFFF;
+	margin-right: 20px;
+}
+
+.container .row i:hover{
+	color: #FFFFFF;
+
+}
+
+.container .row a{
+	color: #e67e22;
+}
+
+.helpbt #btHelp{
+	text-decoration: none;
+	border: 1px solid #e67e22;
+	border-radius: 8px;
+	padding: 8px 25px;
+	background-color: transparent;
+	color: #e67e22;
+	
+}
+
+.helpbt #btHelp{
+	background-color: #e67e22;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+.helpbt{
+	margin-left: 1%;
+	margin-right: 9%;
+	margin-top: 11%;
+}

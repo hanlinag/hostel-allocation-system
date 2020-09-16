@@ -1,0 +1,94 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.row{
+	margin: 0 auto;
+	max-width: 1180px;
+}
+
+body{
+	font-family: tarhoma;
+	background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(../images/schoolbg.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+h2{
+	color: #FFFFFF;
+}
+
+
+
+#welcomeText{
+	margin-top: 10%;
+	color: #FFFFFF;
+}
+
+
+h2:after{
+	width: 100px;
+	height: 2px;
+	background-color: #e67e22;
+	display: block;
+	content: " ";
+	margin: 0 auto;
+	margin-top: 30px;
+	margin-bottom: 40px;
+
+}
+
+#secondText{
+	color: #FFFFFF;
+}
+
+.loginform{
+	margin: 40px;
+	
+}
+
+.textField{
+	width: 250px;
+}
+
+#tfs{
+	width: 250px;
+}
+
+a{
+	text-decoration: none;
+}
+
+
+
+#btCheck{
+	color: #FFFFFF;
+	text-decoration: none;
+	padding: 4px 12px;
+	border-radius: 10px;
+	border:1px solid #e67e22;
+	background-color: #e67e22;
+}
+
+#btCancel {
+	margin-right: 10px;
+	border: 1px solid #e67e22;
+	border-radius: 6px;
+	border-color: #e67e22;
+	background-color: transparent;
+	color: #e67e22;
+	padding:6px 16px;
+	transition: 0.5s;
+	text-decoration: none;
+
+}
+
+#btCancel:hover{
+	color: #FFFFFF;
+	transition: 0.5s;
+	background-color: #e67e22;
+	text-decoration: none;
+}

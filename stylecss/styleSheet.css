@@ -1,0 +1,363 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.row{
+	margin: 0 auto;
+	max-width: 1180px;
+}
+
+body{
+	font-family: tarhoma;
+}
+
+/*navigation bar css*/
+
+
+.navbar-nav li a{
+	color: #FFF;
+}
+
+.navbar-nav li a:hover{
+	color: #e67e22;
+	background-color: #FFF;
+	border: 0;
+	line-height: 1.45em;
+}
+
+.navbar-brand{
+	color: #FFF;
+}
+
+
+.icon-bar{
+	background-color: #FFF;
+}
+
+.navbar-nav li.active, .navbar-nav li.active a{
+	color: #e67e22;
+	border: 0;
+	line-height: 1.45em;
+	background-color: #FFF;
+}
+
+/*Header Css*/
+
+
+
+.hero {
+	margin-top: 13%;
+}
+
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../images/schoolbg.png);
+	height: 97vh;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+h1{
+	color: #FFFFFF;
+}
+
+.hero h1{
+	color: #FFFFFF;
+}
+
+.logo img{
+	height: 80px;
+	float: left;
+	margin-left: 30px;
+	margin-top:0px; 
+}
+
+.bt{
+	border: 1px solid #e67e22;
+	color: #e67e22;
+	padding: 8px 20px;
+	margin-right:25px;
+	border-radius: 10px;
+	text-decoration: none;
+}
+
+.buttons{
+	margin-top: 30px;
+	justify-content: center;
+
+}
+
+.bt-signup{
+	background-color: #e67e22;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.bt-signup:hover{
+	color: #BDBDBD;
+	text-decoration: none;
+	transition: all 0.5s ease-in;
+}
+
+.bt-signin:hover{
+	background-color: #e67e22;
+	color: #FFFFFF;
+	transition: all 0.5s ease-in;
+	text-decoration: none;
+}
+
+h3:after{
+	width: 100px;
+	height: 2px;
+	background-color: #e67e22;
+	display: block;
+	content: " ";
+	margin: 0 auto;
+	margin-top: 30px;
+	margin-bottom: 20px;
+
+}
+
+.copy{
+	font-family: tarhoma;
+	text-align: justify;
+	width: 80%;
+	margin-left: 10%;
+	
+}
+
+.aboutSchoolParas{
+	margin-bottom: 40px;
+}
+.features h3{
+	margin-top: 80px;
+	margin-bottom: 30px;
+}
+
+.arranging{
+	text-align: justify;
+}
+
+.features i{
+	font-size: 40px;
+	color: #e67e22;
+	margin-left: 40%;
+	margin-top: 30px;
+}
+
+
+.features h4{
+	text-align:center;
+}
+
+.meal-showcase{
+	list-style: none;
+	width: 100%;
+
+}
+
+.meal-showcase li{
+	text-decoration: none;
+	display: block;
+	width: 25%;
+	float: left;
+}
+
+.meal-photo{
+	width: 100%;
+	height: 178px;
+	margin:0;
+	overflow: hidden;
+}
+
+.meal-photo img{
+	width: 100%;
+	transform: scale(1.15);
+	transition: all 0.5s;
+}
+
+.meal-photo img:hover{
+	transform: scale(1.05);
+}
+
+.meal{
+	margin-top: 80px;
+	margin-bottom: 60px;
+}
+
+
+.iPhonePic img{
+	width: 80%;
+	margin-left: 35%;
+	margin-top: 45px;
+}
+
+.work-steps{
+	margin-top: 70px;
+}
+
+.work-steps div{
+	border: 1px solid #e67e22;
+	display: inline-block;
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	text-align:center;
+	line-height: 50px;
+}
+
+.work-steps img{
+	height: 65px;
+	width: 65px;
+	margin-right: 40px;
+
+}
+
+
+.clearfix {
+	zoom:1;
+}
+
+.clearfix:after{
+	visibility: hidden;
+	content: ".";
+	height: 0;
+	display: block;
+	clear: both;
+}
+
+.mobile{
+	margin-top: 60px;
+}
+
+.cities{
+	margin-top: 100px;
+}
+
+.cities img{
+	width: 105%;
+	height: 180px;
+	margin-top: 50px;
+}
+
+.cities i{
+	color: #e67e22;
+}
+
+.students{
+	margin-top: 100px;
+	background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../images/speechbk.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	color: #FFFFFF;
+}
+
+.students cite img{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	margin-right: 10px; 
+}
+
+.students p{
+	text-align: justify;
+	line-height: 25px;
+	margin-top: 60px;
+}
+
+.students p q{
+	text-shadow: rgba(0,0,0,0.7);
+	text-decoration-color: #424242;
+	display: inline;
+	width: 50px;
+
+}
+
+.students p q:before{
+	content: open-quote;
+}
+
+.students p q:after{
+	content: close-quote;
+}
+
+.form{
+	margin-top: 100px;
+	margin-bottom: 80px;
+}
+
+.bt-submit{
+	background-color: #e67e22;
+	color: #FFFFFF;
+	border-radius: 4px;
+	margin-top: 20px;
+}
+
+.gap{
+	margin-top: 50px;
+}
+
+/*Footer*/
+.footer{
+	padding:30px;
+	color: #CCCCCC;
+	background-color: #222222;
+}
+
+.footer .social{
+	font-size: 20px;
+	height: 30px;
+	width: 30px;
+	text-align: center;
+	padding: 5px;
+	border: 1px solid #CCCCCC;
+	margin-bottom: 10px;
+	margin-right: 5px;
+}
+
+.footer a{
+	color: #CCCCCC;
+}
+
+.footer i{
+	margin-right: 7px;
+}
+
+
+.slideanim{
+	visibility: hidden;
+}
+.slide{
+	animation-name: slide;
+	-webkit-animation-name:slide;
+	animation-duration: 1s;
+	-webkit-animation-duration:1s;
+	visibility: visible;
+}
+
+@keyframes slide{
+	0%{
+		opacity: 0;
+		-webkit-transform: translateY(70%);
+	}
+	100%{
+		opacity: -1;
+		-webkit-transform: translateX(0%);
+	}
+}
+
+@-webkit-keyframes slide{
+	0%{
+		opacity: 0;
+		-webkit-transform: translateY(70%);
+	}
+	100%{
+		opacity: -1;
+		-webkit-transform: translateX(0%);
+	}
+}

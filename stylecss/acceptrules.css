@@ -1,0 +1,108 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.row{
+	margin: 0 auto;
+	max-width: 1180px;
+}
+
+body{
+	font-family: tarhoma;
+	background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)), url(../images/schoolbg.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+h1{
+	
+	color: #FFFFFF;
+}
+
+#welcomeText{
+	margin-top: 50px;
+	color: #FFFFFF;
+}
+
+
+h1:after{
+	width: 100px;
+	height: 2px;
+	background-color: #e67e22;
+	display: block;
+	content: " ";
+	margin: 0 auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+}
+
+.copy{
+	font-family: tarhoma;
+	text-align: justify;
+	width: 80%;
+	color: #FFF;
+	margin-left: 10%;
+	font-size: 1.2em;
+	line-height: 30px;
+	
+}
+
+#co{
+	font-family: tarhoma;
+	text-align: justify;
+	width: 80%;
+	margin-bottom: 20px;
+	margin-left: 10%;
+}
+.Stunavigation{
+	margin-top: 1%;
+	margin-left: 78%;
+}
+
+.bt{
+	margin-right: 10px;
+	border: 1px solid #e67e22;
+	border-radius: 6px;
+	border-color: #e67e22;
+	background-color: transparent;
+	color: #e67e22;
+	padding:8px 25px;
+	transition: 0.5s;
+	text-decoration: none;
+
+}
+
+.bt:hover{
+	color: #FFFFFF;
+	transition: 0.5s;
+	background-color: #e67e22;
+	text-decoration: none;
+}
+
+#loginformm .buttons .btnAdd{
+	color: #e67e22;
+	width: 28px;
+	height: 8px;
+	background-color: #e67e22;
+}
+
+.tfLabel{
+	color: #FFFFFF;
+}
+
+.buttons{
+	align-content: space-between;
+}
+
+#btAdd{
+ 	color: #FFFFFF;
+	text-decoration: none;
+	padding: 7px 19px;
+	border-radius: 10px;
+	border:1px solid #e67e22;
+	background-color: #e67e22;
+}
