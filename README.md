@@ -45,30 +45,30 @@ This system is about the student hostel registration, allocation students to roo
 # Diagram
 ## Flowchart Diagrams
 ### Admin 
-![alt text](https://github.com/hanlinag/point-of-sale-system/blob/master/images/ER%20Final.png?raw=true)
+![alt text](https://raw.githubusercontent.com/hanlinag/hostel-allocation-system/master/img/admin.png)
 
 ### Student
-![alt text](https://github.com/hanlinag/point-of-sale-system/blob/master/images/ER%20Final.png?raw=true)
+![alt text](https://raw.githubusercontent.com/hanlinag/hostel-allocation-system/master/img/student.png)
 
 
 ## Usecase Diagram
-![alt text](https://github.com/hanlinag/point-of-sale-system/blob/master/images/ER%20Final.png?raw=true)
+![alt text](https://raw.githubusercontent.com/hanlinag/hostel-allocation-system/master/img/usecase.png)
 
 ## Database
-![alt text](https://github.com/hanlinag/point-of-sale-system/blob/master/images/ER%20Final.png?raw=true)
+![alt text](https://raw.githubusercontent.com/hanlinag/hostel-allocation-system/master/img/database.pnge)
 
 # Screenshots 
 ## Home 
-![alt text](https://github.com/hanlinag/point-of-sale-system/blob/master/images/ER%20Final.png?raw=true)
+![alt text](https://raw.githubusercontent.com/hanlinag/hostel-allocation-system/master/img/home.png)
 
 ## Admin Panel
-![alt text](https://github.com/hanlinag/point-of-sale-system/blob/master/images/ER%20Final.png?raw=true)
+![alt text](https://raw.githubusercontent.com/hanlinag/hostel-allocation-system/master/img/adminp.png)
 
 ## Student Panel
-![alt text](https://github.com/hanlinag/point-of-sale-system/blob/master/images/ER%20Final.png?raw=true)
+![alt text](https://raw.githubusercontent.com/hanlinag/hostel-allocation-system/master/img/studentp.png)
 
 ## Student Registration Form
-![alt text](https://github.com/hanlinag/point-of-sale-system/blob/master/images/ER%20Final.png?raw=true)
+![alt text](https://raw.githubusercontent.com/hanlinag/hostel-allocation-system/master/img/reg.png)
 
 # Limitations
 This is only for UCSM hostel allocation system and may not be comfortable with other organizations.
